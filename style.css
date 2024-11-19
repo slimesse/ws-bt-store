@@ -1,0 +1,170 @@
+#footer {
+  margin-top: 50cap;
+}
+#nav {
+  background-image: url(images/ddd.png);
+}
+.navbar-brand {
+  color: aliceblue;
+}
+.nav-link-active {
+  color: aliceblue;
+}
+#htext {
+  width: 1cap;
+}
+#tp {
+  display: flex;
+}
+.cards {
+  display: flex;
+  margin-top: 10%;
+  flex-wrap: wrap;
+  gap: 13rem;
+  margin-left: 3%;
+}
+#card1 {
+  background-color: rgb(210, 183, 251);
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+}
+#card2 {
+  background-color: rgb(210, 183, 251);
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+}
+#card3 {
+  background-color: rgb(210, 183, 251);
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+}
+#tp {
+  margin-top: 15%;
+  margin-left: 41%;
+  transition: transform 0.5s ease;
+  color: rgb(147, 130, 189);
+}
+#tp1 {
+  margin-top: 15%;
+  margin-left: 39%;
+  transition: transform 0.5s ease;
+  color: rgb(147, 130, 189);
+}
+
+
+#tp2 {
+  margin-top: 15%;
+  margin-left: 42%;
+  transition: transform 0.5s ease;
+  color: rgb(147, 130, 189);
+}
+
+
+#formul {
+  margin-top: 10cap;
+}
+#tp:hover {
+  /* color:rgb(147, 130, 189); */
+  transform: scale(1.02);
+  /* transition: 0.5s ease; */
+}
+
+#tp1:hover {
+  color: rgb(147, 130, 189);
+  transform: scale(1.02);
+  /* transition: 0.5s ease; */
+}
+
+#tp2:hover {
+  /* color:rgb(147, 130, 189); */
+  transform: scale(1.02);
+  /* transition: 0.5s ease; */
+}
+
+/* 1. Small Mobile Devices (Portrait) */
+@media (max-width: 480px) {
+  /* Styles for small screens (e.g., iPhone 4, 5, 6, SE, Android small screens) */
+  body {
+    font-size: 14px;
+  }
+
+  nav {
+    font-size: 12px;
+  }
+}
+
+/* 2. Larger Mobile Devices (Landscape) */
+@media (min-width: 481px) and (max-width: 767px) {
+  /* Styles for larger mobile devices (e.g., iPhone 6, 7, 8, Galaxy S8, Nexus) */
+  body {
+    font-size: 16px;
+  }
+
+  nav {
+    font-size: 14px;
+  }
+}
+
+/* 3. Small Tablets and Small Screens */
+@media (min-width: 768px) and (max-width: 1024px) {
+  /* Styles for tablets (e.g., iPad, Galaxy Tab, Nexus 7) */
+  body {
+    font-size: 18px;
+  }
+
+  nav {
+    font-size: 16px;
+  }
+}
+
+/* 4. Large Tablets (Portrait) */
+@media (min-width: 1025px) and (max-width: 1280px) {
+  /* Styles for larger tablets or small desktops */
+  body {
+    font-size: 20px;
+  }
+
+  nav {
+    font-size: 18px;
+  }
+}
+
+/* 5. Small Desktops / Laptops */
+@media (min-width: 1281px) and (max-width: 1440px) {
+  /* Styles for small desktops (e.g., 13-inch laptops) */
+  body {
+    font-size: 22px;
+  }
+
+  nav {
+    font-size: 20px;
+  }
+}
+
+/* 6. Large Desktops (Standard 1920px width) */
+@media (min-width: 1441px) and (max-width: 1920px) {
+  /* Styles for large desktops */
+  body {
+    font-size: 24px;
+  }
+
+  nav {
+    font-size: 22px;
+  }
+}
+
+/* 7. Very Large Screens (e.g., 4K TVs, Ultra-Wide Monitors) */
+@media (min-width: 1921px) {
+  /* Styles for very large screens */
+  body {
+    font-size: 28px;
+  }
+
+  nav {
+    font-size: 24px;
+  }
+}
+
